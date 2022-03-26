@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.hdr{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newBook, .create{
+    background: green;
+    width: 125px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tbl{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    font-size: 20px;
+    width: 50%;
+}
+
+td{
+    padding: 5px 20px 5px 10px;
+}
+
+th{
+    padding: 5px 20px 5px 10px;
+}
+
+
+a{
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-book, .update-book{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+input{
+    height: 50px;
+    width: 250px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.cancel{
+    cursor: pointer;
+}
+
+input{
+    border-radius: 10px;
+    
+}
+
